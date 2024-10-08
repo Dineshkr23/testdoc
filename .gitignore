@@ -3,3 +3,4 @@ build
 brainstorm
 .env
 .vscode
+.docusaurus

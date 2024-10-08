@@ -18,7 +18,7 @@ export default function CRMHelpCenter() {
         </p>
         <ul>
           <li>
-            <Link to="/whatsapp-business-api/docs/introduction">
+            <Link to="/whatsapp-business-api/docs/SUMMARY">
               Introduction to Whatsapp Business API
             </Link>
           </li>

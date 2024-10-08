@@ -85,9 +85,10 @@ const config = {
         id: "whatsapp",
         path: "whatsapp-business-api/docs",
         routeBasePath: "whatsapp-business-api/docs",
-        sidebarPath: require.resolve(
-          "./sidebars/whatsapp-business-apiSidebar.js"
-        ),
+        // sidebarPath: require.resolve(
+        //   "./sidebars/whatsapp-business-apiSidebar.js"
+        // ),
+        sidebarPath: undefined,
         editUrl:
           "https://github.com/your-org/support-documentation/edit/main/whatsapp-business-api/docs/",
       },
@@ -140,15 +141,6 @@ const config = {
         style: "dark",
         links: [
           {
-            title: "Docs",
-            items: [
-              {
-                label: "Tutorial",
-                to: "/docs/intro",
-              },
-            ],
-          },
-          {
             title: "Community",
             items: [
               {
@@ -165,19 +157,19 @@ const config = {
               },
             ],
           },
-          {
-            title: "More",
-            items: [
-              {
-                label: "Blog",
-                to: "/blog",
-              },
-              {
-                label: "GitHub",
-                href: "https://github.com/facebook/docusaurus",
-              },
-            ],
-          },
+          // {
+          //   title: "More",
+          //   items: [
+          //     {
+          //       label: "Blog",
+          //       to: "/blog",
+          //     },
+          //     {
+          //       label: "GitHub",
+          //       href: "https://github.com/facebook/docusaurus",
+          //     },
+          //   ],
+          // },
         ],
         copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
       },
